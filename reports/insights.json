@@ -1,0 +1,14 @@
+[
+  {
+    "id": "H2",
+    "hypothesis": "Some campaigns underperformed vs others (ROAS variance)",
+    "evidence": "ROAS variance across campaigns: 89.16",
+    "confidence": "high"
+  },
+  {
+    "id": "H3",
+    "hypothesis": "Creative fatigue \u2014 audience might be tired of repeated creatives",
+    "evidence": "Repeated creatives detected (trend not evaluated in depth)",
+    "confidence": "medium"
+  }
+]
