@@ -36,8 +36,15 @@ class Orchestrator:
 
         with open(f"{out_dir}/creatives.json", "w") as f:
             json.dump(creatives, f, indent=2)
+        
+        with open(f"{out_dir}/report.md", "w", encoding="utf-8") as f:
+            f.write("# 📌 Facebook Ads Performance Diagnosis Report\n\n")
+            f.write("## 📈 ROAS & CTR Overview\n")
+            f.write(f"- Average ROAS: **{data_summary['summary']['avg_roas']}**\n")
+            f.write(f"- Latest ROAS: **{data_summary['summary']['latest_roas']}**\n")
+            f.write(f"- Previous ROAS: **{data_summary['summary']['previous_roas']}**\n")
+            f.write(f"- Average CTR: **{data_summary['summary']['avg_ctr']}%**\n")
+            f.write(f"- ROAS Variance: **{data_summary['summary']['roas_variance']}**\n\n")
+            f.write("### Full insights in insights.json\n")
+            f.write("### Creative ideas in creatives.json\n")
 
-        with open(f"{out_dir}/report.md", "w") as f:
-            f.write("# Marketing Insights Report\n\n")
-            f.write("## Summary\nInsights are saved in insights.json\n")
-            f.write("\n## Creative Suggestions\nSee creatives.json\n")
