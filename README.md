@@ -112,9 +112,9 @@ pytest
 | v1.0 Release | ✔ Published |
 | Self-review Pull Request | ✔ Created & describes design decisions |
 
-Links can be added here (optional for reviewers):
-- v1.0 Release: <paste link>
-- Self-review PR: <paste link>
+
+- v1.0 Release: https://github.com/Suryanshtyagi12/kasparro-agentic-fb-analyst-suryansh-tyagi/releases/tag/v1.0 
+- Self-review PR: https://github.com/Suryanshtyagi12/kasparro-agentic-fb-analyst-suryansh-tyagi/pull/1
 
 ---
 
