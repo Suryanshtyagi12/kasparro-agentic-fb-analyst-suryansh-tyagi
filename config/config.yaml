@@ -1,12 +1,17 @@
 seed: 42
+
 thresholds:
   low_ctr_pct: 0.10
   low_ctr_value: 0.005
   roas_drop_pct: 0.20
+
 analysis:
   lookback_days: 28
   compare_window_days: 14
+
 paths:
-  data_dir: data/
-  out_dir: reports/
+  data_path: data/synthetic_fb_ads_undergarments.csv
+  out_dir: reports
+
+
 

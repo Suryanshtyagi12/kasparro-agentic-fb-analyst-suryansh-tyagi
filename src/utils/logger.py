@@ -1,15 +1,43 @@
 import json
+import os
+import datetime
+import traceback
 
-def log_event(event_type, data):
-    def make_json_safe(obj):
-        if isinstance(obj, dict):
-            return {str(k): make_json_safe(v) for k, v in obj.items()}
-        elif isinstance(obj, list):
-            return [make_json_safe(i) for i in obj]
-        else:
-            return str(obj)
+LOG_PATH = "logs/run_logs.json"
 
-    safe_data = make_json_safe(data)
+def _ensure_log_dir():
+    os.makedirs("logs", exist_ok=True)
 
-    with open("logs/run_logs.json", "a") as f:
-        f.write(json.dumps({"event": event_type, "data": safe_data}) + "\n")
+def log_event(event, details=None, level="INFO"):
+    """
+    Structured, JSON-based logging for all agents.
+    Stores timestamp, event type, details, and log level.
+    """
+    _ensure_log_dir()
+
+    log_entry = {
+        "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+        "level": level,
+        "event": event,
+        "details": details
+    }
+
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(json.dumps(log_entry) + "\n")
+
+def log_error(event, error: Exception):
+    """
+    Error logger with full stack trace for debugging.
+    """
+    _ensure_log_dir()
+
+    error_entry = {
+        "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+        "level": "ERROR",
+        "event": event,
+        "error_message": str(error),
+        "traceback": traceback.format_exc()
+    }
+
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(json.dumps(error_entry) + "\n")
