@@ -1,28 +1,45 @@
+from src.utils.logger import log_event, log_error
+
 class EvaluatorAgent:
     def validate(self, hypotheses, data_summary):
-        s = data_summary["summary"]
-        results = []
+        try:
+            log_event("evaluator_agent_start", {"hypothesis_count": len(hypotheses)})
 
-        for h in hypotheses:
-            if h["id"] == "H1":
-                delta = s["latest_roas"] - s["previous_roas"]
-                confidence = "high" if delta < -0.10 else "medium"
-                evidence = f"ROAS change: {round(delta, 4)}"
-            
-            elif h["id"] == "H2":
-                var = max(s["roas_by_campaign"].values()) - min(s["roas_by_campaign"].values())
-                confidence = "high" if var > 0.5 else "medium"
-                evidence = f"ROAS variance across campaigns: {round(var, 4)}"
+            summary = data_summary.get("summary", {})
+            results = []
 
-            elif h["id"] == "H3":
-                confidence = "medium"
-                evidence = "Repeated creatives detected (trend not evaluated in depth)"
+            for h in hypotheses:
+                hypothesis_text = h.get("hypothesis", h.get("statement", ""))
+                metrics = h.get("metrics", {})
 
-            results.append({
-                "id": h["id"],
-                "hypothesis": h["hypothesis"],
-                "evidence": evidence,
-                "confidence": confidence
-            })
+                confidence = 0.5
+                evidence = {}
 
-        return results
+                ctr_before = metrics.get("ctr_before")
+                ctr_after = metrics.get("ctr_after")
+
+                if ctr_before is not None and ctr_after is not None:
+                    delta = ctr_after - ctr_before
+                    confidence = min(1.0, max(0.0, abs(delta) * 5))
+                    evidence = {
+                        "ctr_before": ctr_before,
+                        "ctr_after": ctr_after,
+                        "delta": delta,
+                    }
+
+                evidence["avg_ctr"] = summary.get("avg_ctr")
+
+                results.append({
+                    "id": h.get("id", ""),
+                    "hypothesis": hypothesis_text,
+                    "evidence": evidence,
+                    "confidence": confidence
+                })
+
+            log_event("evaluator_agent_results", {"validated_count": len(results)})
+
+            return results
+
+        except Exception as e:
+            log_error("evaluator_agent_error", e)
+            raise

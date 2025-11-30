@@ -1,17 +1,21 @@
-#!/usr/bin/env python3
 import argparse
 from src.orchestrator.orchestrator import Orchestrator
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Kasparro Agentic FB Analyst")
-    parser.add_argument("query", type=str, help="e.g. 'Analyze ROAS drop'")
-    parser.add_argument("--data", default="data/sample.csv")
-    parser.add_argument("--out", default="reports")
+    parser = argparse.ArgumentParser(description="Kasparro Agentic FB Analyst CLI")
+    parser.add_argument("query", type=str, help="Enter query like: 'Analyze ROAS drop'")
+    parser.add_argument("--config", type=str, default="config/config.yaml", help="Path to config.yaml")
     args = parser.parse_args()
 
-    orchestrator = Orchestrator(config_path="config/config.yaml")
-    orchestrator.run(query=args.query, data_path=args.data, out_dir=args.out)
-    print("\n✓ Analysis complete — See results inside reports/ folder\n")
+    orch = Orchestrator(config_path=args.config)
+    outputs = orch.run(args.query)
+
+    print("\n🔥 Run completed successfully!")
+    print("📄 Insights:", outputs["insights"])
+    print("🎨 Creatives:", outputs["creatives"])
+    print("📊 Report:", outputs["report"])
 
 if __name__ == "__main__":
     main()
+
