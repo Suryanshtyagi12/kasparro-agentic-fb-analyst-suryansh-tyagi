@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-✅ FINAL README.md — READY FOR SUBMISSION
-
-(Replace your existing README.md with this.)
 
 Kasparro – Agentic Facebook Performance Analyst
 
