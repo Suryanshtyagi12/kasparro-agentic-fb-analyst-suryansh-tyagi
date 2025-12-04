@@ -1,18 +1,2338 @@
 [
   {
-    "id": "H2",
-    "hypothesis": "Some campaigns underperformed vs others (ROAS variance)",
-    "evidence": {
-      "avg_ctr": 1.31
+    "id": "H_ctr_men premium modal",
+    "hypothesis": "CTR changed for campaign men premium modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "men premium modal"
     },
-    "confidence": 0.5
+    "evidence": {
+      "before": 0.0113,
+      "after": 0.0127,
+      "delta": 0.0014000000000000002,
+      "delta_pct": 12.39
+    },
+    "impact": "medium",
+    "confidence": 0.06
   },
   {
-    "id": "H3",
-    "hypothesis": "Creative fatigue — audience might be tired of repeated creatives",
-    "evidence": {
-      "avg_ctr": 1.31
+    "id": "H_ctr_WOMEN-FIT & LIFT",
+    "hypothesis": "CTR changed for campaign WOMEN-FIT & LIFT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN-FIT & LIFT"
     },
-    "confidence": 0.5
+    "evidence": {
+      "before": 0.0252,
+      "after": 0,
+      "delta": -0.0252,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_-omen_|_Studio_Sports",
+    "hypothesis": "CTR changed for campaign -omen_|_Studio_Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "-omen_|_Studio_Sports"
+    },
+    "evidence": {
+      "before": 0.0114,
+      "after": 0,
+      "delta": -0.0114,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women-| studio sports",
+    "hypothesis": "CTR changed for campaign women-| studio sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women-| studio sports"
+    },
+    "evidence": {
+      "before": 0.0162,
+      "after": 0,
+      "delta": -0.0162,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  Bold  Colors  Drop",
+    "hypothesis": "CTR changed for campaign Men  Bold  Colors  Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  Bold  Colors  Drop"
+    },
+    "evidence": {
+      "before": 0.0094,
+      "after": 0.0085,
+      "delta": -0.0008999999999999998,
+      "delta_pct": -9.57
+    },
+    "impact": "low",
+    "confidence": 0.05
+  },
+  {
+    "id": "H_ctr_WOMEN_Seamless_Everyday",
+    "hypothesis": "CTR changed for campaign WOMEN_Seamless_Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN_Seamless_Everyday"
+    },
+    "evidence": {
+      "before": 0.008,
+      "after": 0.0069,
+      "delta": -0.0011000000000000003,
+      "delta_pct": -13.75
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_women  Summer  Invisib e",
+    "hypothesis": "CTR changed for campaign women  Summer  Invisib e",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women  Summer  Invisib e"
+    },
+    "evidence": {
+      "before": 0.01,
+      "after": 0,
+      "delta": -0.01,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN  Si-nature  Soft",
+    "hypothesis": "CTR changed for campaign MEN  Si-nature  Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN  Si-nature  Soft"
+    },
+    "evidence": {
+      "before": 0.0187,
+      "after": 0,
+      "delta": -0.0187,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women su-mer invisible",
+    "hypothesis": "CTR changed for campaign women su-mer invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women su-mer invisible"
+    },
+    "evidence": {
+      "before": 0.0057,
+      "after": 0,
+      "delta": -0.0057,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women | Stu-io Sports",
+    "hypothesis": "CTR changed for campaign Women | Stu-io Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Stu-io Sports"
+    },
+    "evidence": {
+      "before": 0.0154,
+      "after": 0,
+      "delta": -0.0154,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN Signature  oft",
+    "hypothesis": "CTR changed for campaign MEN Signature  oft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN Signature  oft"
+    },
+    "evidence": {
+      "before": 0.0123,
+      "after": 0,
+      "delta": -0.0123,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_men signature soft",
+    "hypothesis": "CTR changed for campaign men signature soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "men signature soft"
+    },
+    "evidence": {
+      "before": 0.0144,
+      "after": 0.0171,
+      "delta": 0.002700000000000001,
+      "delta_pct": 18.75
+    },
+    "impact": "medium",
+    "confidence": 0.09
+  },
+  {
+    "id": "H_ctr_women fit & li t",
+    "hypothesis": "CTR changed for campaign women fit & li t",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women fit & li t"
+    },
+    "evidence": {
+      "before": 0.0078,
+      "after": 0,
+      "delta": -0.0078,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN_Signa ure_Soft",
+    "hypothesis": "CTR changed for campaign MEN_Signa ure_Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN_Signa ure_Soft"
+    },
+    "evidence": {
+      "before": 0.0166,
+      "after": 0,
+      "delta": -0.0166,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_W MEN Cotton Classics",
+    "hypothesis": "CTR changed for campaign W MEN Cotton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "W MEN Cotton Classics"
+    },
+    "evidence": {
+      "before": 0.0088,
+      "after": 0,
+      "delta": -0.0088,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men ComfortMax Lau-ch",
+    "hypothesis": "CTR changed for campaign Men ComfortMax Lau-ch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men ComfortMax Lau-ch"
+    },
+    "evidence": {
+      "before": 0.0085,
+      "after": 0,
+      "delta": -0.0085,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women | studio sports",
+    "hypothesis": "CTR changed for campaign women | studio sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women | studio sports"
+    },
+    "evidence": {
+      "before": 0.0111,
+      "after": 0.0096,
+      "delta": -0.0015000000000000013,
+      "delta_pct": -13.51
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_MEN BOL COLORS DROP",
+    "hypothesis": "CTR changed for campaign MEN BOL COLORS DROP",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN BOL COLORS DROP"
+    },
+    "evidence": {
+      "before": 0.0045,
+      "after": 0,
+      "delta": -0.0045,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN  Signature  Soft",
+    "hypothesis": "CTR changed for campaign MEN  Signature  Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN  Signature  Soft"
+    },
+    "evidence": {
+      "before": 0.0121,
+      "after": 0.0087,
+      "delta": -0.0034000000000000002,
+      "delta_pct": -28.1
+    },
+    "impact": "medium",
+    "confidence": 0.12
+  },
+  {
+    "id": "H_ctr_WOMEN otton Classics",
+    "hypothesis": "CTR changed for campaign WOMEN otton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN otton Classics"
+    },
+    "evidence": {
+      "before": 0.0107,
+      "after": 0,
+      "delta": -0.0107,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  ComfortMax  Launch",
+    "hypothesis": "CTR changed for campaign Men  ComfortMax  Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  ComfortMax  Launch"
+    },
+    "evidence": {
+      "before": 0.0128,
+      "after": 0.0167,
+      "delta": 0.003899999999999999,
+      "delta_pct": 30.47
+    },
+    "impact": "high",
+    "confidence": 0.13
+  },
+  {
+    "id": "H_ctr_MEN SIGNATURE SOFT",
+    "hypothesis": "CTR changed for campaign MEN SIGNATURE SOFT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN SIGNATURE SOFT"
+    },
+    "evidence": {
+      "before": 0.0135,
+      "after": 0.0155,
+      "delta": 0.002,
+      "delta_pct": 14.81
+    },
+    "impact": "medium",
+    "confidence": 0.07
+  },
+  {
+    "id": "H_ctr_WOMEN  Cotton  Classics",
+    "hypothesis": "CTR changed for campaign WOMEN  Cotton  Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN  Cotton  Classics"
+    },
+    "evidence": {
+      "before": 0.0109,
+      "after": 0.0084,
+      "delta": -0.0025000000000000005,
+      "delta_pct": -22.94
+    },
+    "impact": "medium",
+    "confidence": 0.1
+  },
+  {
+    "id": "H_ctr_MEN_ ignature_Soft",
+    "hypothesis": "CTR changed for campaign MEN_ ignature_Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN_ ignature_Soft"
+    },
+    "evidence": {
+      "before": 0.0203,
+      "after": 0,
+      "delta": -0.0203,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Summer Invisible",
+    "hypothesis": "CTR changed for campaign Women Summer Invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Summer Invisible"
+    },
+    "evidence": {
+      "before": 0.0109,
+      "after": 0.0093,
+      "delta": -0.0016000000000000007,
+      "delta_pct": -14.68
+    },
+    "impact": "medium",
+    "confidence": 0.07
+  },
+  {
+    "id": "H_ctr_women cott n classics",
+    "hypothesis": "CTR changed for campaign women cott n classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women cott n classics"
+    },
+    "evidence": {
+      "before": 0.0093,
+      "after": 0,
+      "delta": -0.0093,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN FIT & LIFT",
+    "hypothesis": "CTR changed for campaign WOMEN FIT & LIFT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN FIT & LIFT"
+    },
+    "evidence": {
+      "before": 0.0171,
+      "after": 0.0207,
+      "delta": 0.003599999999999999,
+      "delta_pct": 21.05
+    },
+    "impact": "medium",
+    "confidence": 0.1
+  },
+  {
+    "id": "H_ctr_MEN_Signature_Soft",
+    "hypothesis": "CTR changed for campaign MEN_Signature_Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN_Signature_Soft"
+    },
+    "evidence": {
+      "before": 0.014,
+      "after": 0.0157,
+      "delta": 0.0016999999999999984,
+      "delta_pct": 12.14
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_Men Bold Colo s Drop",
+    "hypothesis": "CTR changed for campaign Men Bold Colo s Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Bold Colo s Drop"
+    },
+    "evidence": {
+      "before": 0.0116,
+      "after": 0,
+      "delta": -0.0116,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN | ATHLEISURE COOLING",
+    "hypothesis": "CTR changed for campaign MEN | ATHLEISURE COOLING",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN | ATHLEISURE COOLING"
+    },
+    "evidence": {
+      "before": 0.0233,
+      "after": 0.0209,
+      "delta": -0.002400000000000003,
+      "delta_pct": -10.3
+    },
+    "impact": "medium",
+    "confidence": 0.05
+  },
+  {
+    "id": "H_ctr_Men | Ath eisure Cooling",
+    "hypothesis": "CTR changed for campaign Men | Ath eisure Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men | Ath eisure Cooling"
+    },
+    "evidence": {
+      "before": 0.0226,
+      "after": 0,
+      "delta": -0.0226,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Signature Soft",
+    "hypothesis": "CTR changed for campaign Men Signature Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Signature Soft"
+    },
+    "evidence": {
+      "before": 0.0146,
+      "after": 0.0163,
+      "delta": 0.0016999999999999984,
+      "delta_pct": 11.64
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_Women_|_Studio_Sports",
+    "hypothesis": "CTR changed for campaign Women_|_Studio_Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women_|_Studio_Sports"
+    },
+    "evidence": {
+      "before": 0.0108,
+      "after": 0.0089,
+      "delta": -0.0019000000000000006,
+      "delta_pct": -17.59
+    },
+    "impact": "medium",
+    "confidence": 0.08
+  },
+  {
+    "id": "H_ctr_Men_Bold_Colors_Drop",
+    "hypothesis": "CTR changed for campaign Men_Bold_Colors_Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men_Bold_Colors_Drop"
+    },
+    "evidence": {
+      "before": 0.0106,
+      "after": 0.0053,
+      "delta": -0.0053,
+      "delta_pct": -50.0
+    },
+    "impact": "high",
+    "confidence": 0.2
+  },
+  {
+    "id": "H_ctr_Men   old  Colors  Drop",
+    "hypothesis": "CTR changed for campaign Men   old  Colors  Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men   old  Colors  Drop"
+    },
+    "evidence": {
+      "before": 0.0132,
+      "after": 0,
+      "delta": -0.0132,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_men bold colors drop",
+    "hypothesis": "CTR changed for campaign men bold colors drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "men bold colors drop"
+    },
+    "evidence": {
+      "before": 0.0096,
+      "after": 0.0101,
+      "delta": 0.0005000000000000004,
+      "delta_pct": 5.21
+    },
+    "impact": "low",
+    "confidence": 0.03
+  },
+  {
+    "id": "H_ctr_MEN-SIGNATURE SOFT",
+    "hypothesis": "CTR changed for campaign MEN-SIGNATURE SOFT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN-SIGNATURE SOFT"
+    },
+    "evidence": {
+      "before": 0.011,
+      "after": 0,
+      "delta": -0.011,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN COMFORTMAX LAUNCH",
+    "hypothesis": "CTR changed for campaign MEN COMFORTMAX LAUNCH",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN COMFORTMAX LAUNCH"
+    },
+    "evidence": {
+      "before": 0.0169,
+      "after": 0.015,
+      "delta": -0.001899999999999999,
+      "delta_pct": -11.24
+    },
+    "impact": "medium",
+    "confidence": 0.05
+  },
+  {
+    "id": "H_ctr_Women | Studi Sports",
+    "hypothesis": "CTR changed for campaign Women | Studi Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Studi Sports"
+    },
+    "evidence": {
+      "before": 0.0122,
+      "after": 0,
+      "delta": -0.0122,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Bold Col-rs Drop",
+    "hypothesis": "CTR changed for campaign Men Bold Col-rs Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Bold Col-rs Drop"
+    },
+    "evidence": {
+      "before": 0.0084,
+      "after": 0,
+      "delta": -0.0084,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_men | athlisure cooling",
+    "hypothesis": "CTR changed for campaign men | athlisure cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "men | athlisure cooling"
+    },
+    "evidence": {
+      "before": 0.0183,
+      "after": 0,
+      "delta": -0.0183,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Comfort-ax Launch",
+    "hypothesis": "CTR changed for campaign Men Comfort-ax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Comfort-ax Launch"
+    },
+    "evidence": {
+      "before": 0.0169,
+      "after": 0,
+      "delta": -0.0169,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_men bold clors drop",
+    "hypothesis": "CTR changed for campaign men bold clors drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "men bold clors drop"
+    },
+    "evidence": {
+      "before": 0.0119,
+      "after": 0,
+      "delta": -0.0119,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men ComfortMax Launch",
+    "hypothesis": "CTR changed for campaign Men ComfortMax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men ComfortMax Launch"
+    },
+    "evidence": {
+      "before": 0.0141,
+      "after": 0.0131,
+      "delta": -0.0009999999999999992,
+      "delta_pct": -7.09
+    },
+    "impact": "low",
+    "confidence": 0.03
+  },
+  {
+    "id": "H_ctr_WOMEN COTTON LASSICS",
+    "hypothesis": "CTR changed for campaign WOMEN COTTON LASSICS",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN COTTON LASSICS"
+    },
+    "evidence": {
+      "before": 0.0102,
+      "after": 0,
+      "delta": -0.0102,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN SIGNATURE S-FT",
+    "hypothesis": "CTR changed for campaign MEN SIGNATURE S-FT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN SIGNATURE S-FT"
+    },
+    "evidence": {
+      "before": 0.0142,
+      "after": 0,
+      "delta": -0.0142,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_w men fit & lift",
+    "hypothesis": "CTR changed for campaign w men fit & lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "w men fit & lift"
+    },
+    "evidence": {
+      "before": 0.0212,
+      "after": 0,
+      "delta": -0.0212,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women  Summ r  Invisible",
+    "hypothesis": "CTR changed for campaign women  Summ r  Invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women  Summ r  Invisible"
+    },
+    "evidence": {
+      "before": 0.0086,
+      "after": 0,
+      "delta": -0.0086,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women | studio spo ts",
+    "hypothesis": "CTR changed for campaign women | studio spo ts",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women | studio spo ts"
+    },
+    "evidence": {
+      "before": 0.0062,
+      "after": 0,
+      "delta": -0.0062,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men -remium Modal",
+    "hypothesis": "CTR changed for campaign Men -remium Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men -remium Modal"
+    },
+    "evidence": {
+      "before": 0.0112,
+      "after": 0,
+      "delta": -0.0112,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men | Athlei-ure Cooling",
+    "hypothesis": "CTR changed for campaign Men | Athlei-ure Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men | Athlei-ure Cooling"
+    },
+    "evidence": {
+      "before": 0.0254,
+      "after": 0,
+      "delta": -0.0254,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women-Studio-Sports",
+    "hypothesis": "CTR changed for campaign Women-Studio-Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women-Studio-Sports"
+    },
+    "evidence": {
+      "before": 0.0089,
+      "after": 0,
+      "delta": -0.0089,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN Seamless Everyday",
+    "hypothesis": "CTR changed for campaign WOMEN Seamless Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN Seamless Everyday"
+    },
+    "evidence": {
+      "before": 0.0086,
+      "after": 0.0078,
+      "delta": -0.0008000000000000004,
+      "delta_pct": -9.3
+    },
+    "impact": "low",
+    "confidence": 0.04
+  },
+  {
+    "id": "H_ctr_Me   Premium  Modal",
+    "hypothesis": "CTR changed for campaign Me   Premium  Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Me   Premium  Modal"
+    },
+    "evidence": {
+      "before": 0.0061,
+      "after": 0,
+      "delta": -0.0061,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN  Seamless  Eve yday",
+    "hypothesis": "CTR changed for campaign WOMEN  Seamless  Eve yday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN  Seamless  Eve yday"
+    },
+    "evidence": {
+      "before": 0.0124,
+      "after": 0,
+      "delta": -0.0124,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN Cot-on Classics",
+    "hypothesis": "CTR changed for campaign WOMEN Cot-on Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN Cot-on Classics"
+    },
+    "evidence": {
+      "before": 0.0095,
+      "after": 0,
+      "delta": -0.0095,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women Summer In-isible",
+    "hypothesis": "CTR changed for campaign women Summer In-isible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women Summer In-isible"
+    },
+    "evidence": {
+      "before": 0.0093,
+      "after": 0,
+      "delta": -0.0093,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_womn cotton classics",
+    "hypothesis": "CTR changed for campaign womn cotton classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "womn cotton classics"
+    },
+    "evidence": {
+      "before": 0.0079,
+      "after": 0,
+      "delta": -0.0079,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men- Premium  Modal",
+    "hypothesis": "CTR changed for campaign Men- Premium  Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men- Premium  Modal"
+    },
+    "evidence": {
+      "before": 0.0081,
+      "after": 0,
+      "delta": -0.0081,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Bold -olors Drop",
+    "hypothesis": "CTR changed for campaign Men Bold -olors Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Bold -olors Drop"
+    },
+    "evidence": {
+      "before": 0.0093,
+      "after": 0,
+      "delta": -0.0093,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOEN  Cotton  Classics",
+    "hypothesis": "CTR changed for campaign WOEN  Cotton  Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOEN  Cotton  Classics"
+    },
+    "evidence": {
+      "before": 0.0054,
+      "after": 0,
+      "delta": -0.0054,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  C-mfortMax  Launch",
+    "hypothesis": "CTR changed for campaign Men  C-mfortMax  Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  C-mfortMax  Launch"
+    },
+    "evidence": {
+      "before": 0.0136,
+      "after": 0,
+      "delta": -0.0136,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN PREM-UM MODAL",
+    "hypothesis": "CTR changed for campaign MEN PREM-UM MODAL",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN PREM-UM MODAL"
+    },
+    "evidence": {
+      "before": 0.0147,
+      "after": 0,
+      "delta": -0.0147,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN_Cotton_Classics",
+    "hypothesis": "CTR changed for campaign WOMEN_Cotton_Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN_Cotton_Classics"
+    },
+    "evidence": {
+      "before": 0.0097,
+      "after": 0.0108,
+      "delta": 0.0011000000000000003,
+      "delta_pct": 11.34
+    },
+    "impact": "medium",
+    "confidence": 0.05
+  },
+  {
+    "id": "H_ctr_WOMEN COTTON CLASSIS",
+    "hypothesis": "CTR changed for campaign WOMEN COTTON CLASSIS",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN COTTON CLASSIS"
+    },
+    "evidence": {
+      "before": 0.0096,
+      "after": 0,
+      "delta": -0.0096,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Fit and Lift",
+    "hypothesis": "CTR changed for campaign Women Fit and Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Fit and Lift"
+    },
+    "evidence": {
+      "before": 0.0172,
+      "after": 0.0162,
+      "delta": -0.0010000000000000009,
+      "delta_pct": -5.81
+    },
+    "impact": "low",
+    "confidence": 0.03
+  },
+  {
+    "id": "H_ctr_WOMEN | STUDIO SPORTS",
+    "hypothesis": "CTR changed for campaign WOMEN | STUDIO SPORTS",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN | STUDIO SPORTS"
+    },
+    "evidence": {
+      "before": 0.0125,
+      "after": 0.0115,
+      "delta": -0.0010000000000000009,
+      "delta_pct": -8.0
+    },
+    "impact": "low",
+    "confidence": 0.04
+  },
+  {
+    "id": "H_ctr_W men-Studio Sports",
+    "hypothesis": "CTR changed for campaign W men-Studio Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "W men-Studio Sports"
+    },
+    "evidence": {
+      "before": 0.0116,
+      "after": 0,
+      "delta": -0.0116,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women_Fit_&_Lift",
+    "hypothesis": "CTR changed for campaign Women_Fit_&_Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women_Fit_&_Lift"
+    },
+    "evidence": {
+      "before": 0.0185,
+      "after": 0.0146,
+      "delta": -0.003899999999999999,
+      "delta_pct": -21.08
+    },
+    "impact": "medium",
+    "confidence": 0.1
+  },
+  {
+    "id": "H_ctr_MEN_Signature_S ft",
+    "hypothesis": "CTR changed for campaign MEN_Signature_S ft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN_Signature_S ft"
+    },
+    "evidence": {
+      "before": 0.0119,
+      "after": 0,
+      "delta": -0.0119,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN SUMMER I VISIBLE",
+    "hypothesis": "CTR changed for campaign WOMEN SUMMER I VISIBLE",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN SUMMER I VISIBLE"
+    },
+    "evidence": {
+      "before": 0.0137,
+      "after": 0,
+      "delta": -0.0137,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Cotton Classics",
+    "hypothesis": "CTR changed for campaign Women Cotton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Cotton Classics"
+    },
+    "evidence": {
+      "before": 0.01,
+      "after": 0.0122,
+      "delta": 0.0022000000000000006,
+      "delta_pct": 22.0
+    },
+    "impact": "medium",
+    "confidence": 0.1
+  },
+  {
+    "id": "H_ctr_women  Summer  Invi ible",
+    "hypothesis": "CTR changed for campaign women  Summer  Invi ible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women  Summer  Invi ible"
+    },
+    "evidence": {
+      "before": 0.0094,
+      "after": 0,
+      "delta": -0.0094,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Wmen_Fit_&_Lift",
+    "hypothesis": "CTR changed for campaign Wmen_Fit_&_Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Wmen_Fit_&_Lift"
+    },
+    "evidence": {
+      "before": 0.0128,
+      "after": 0,
+      "delta": -0.0128,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN Ctton Classics",
+    "hypothesis": "CTR changed for campaign WOMEN Ctton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN Ctton Classics"
+    },
+    "evidence": {
+      "before": 0.017,
+      "after": 0,
+      "delta": -0.017,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_ en Premium Modal",
+    "hypothesis": "CTR changed for campaign  en Premium Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": " en Premium Modal"
+    },
+    "evidence": {
+      "before": 0.0144,
+      "after": 0,
+      "delta": -0.0144,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_M-n Bold Colors Drop",
+    "hypothesis": "CTR changed for campaign M-n Bold Colors Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "M-n Bold Colors Drop"
+    },
+    "evidence": {
+      "before": 0.0076,
+      "after": 0,
+      "delta": -0.0076,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN SEAMLESS EVERYDAY",
+    "hypothesis": "CTR changed for campaign WOMEN SEAMLESS EVERYDAY",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN SEAMLESS EVERYDAY"
+    },
+    "evidence": {
+      "before": 0.0072,
+      "after": 0.0064,
+      "delta": -0.0007999999999999995,
+      "delta_pct": -11.11
+    },
+    "impact": "medium",
+    "confidence": 0.05
+  },
+  {
+    "id": "H_ctr_WOMEN C tton Classics",
+    "hypothesis": "CTR changed for campaign WOMEN C tton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN C tton Classics"
+    },
+    "evidence": {
+      "before": 0.0127,
+      "after": 0,
+      "delta": -0.0127,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN | ATHLEISURECOOLING",
+    "hypothesis": "CTR changed for campaign MEN | ATHLEISURECOOLING",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN | ATHLEISURECOOLING"
+    },
+    "evidence": {
+      "before": 0.023,
+      "after": 0,
+      "delta": -0.023,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Wom n Fit & Lift",
+    "hypothesis": "CTR changed for campaign Wom n Fit & Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Wom n Fit & Lift"
+    },
+    "evidence": {
+      "before": 0.0243,
+      "after": 0,
+      "delta": -0.0243,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women | studio sprts",
+    "hypothesis": "CTR changed for campaign women | studio sprts",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women | studio sprts"
+    },
+    "evidence": {
+      "before": 0.0137,
+      "after": 0,
+      "delta": -0.0137,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_-omen-Studio Sports",
+    "hypothesis": "CTR changed for campaign -omen-Studio Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "-omen-Studio Sports"
+    },
+    "evidence": {
+      "before": 0.0096,
+      "after": 0,
+      "delta": -0.0096,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women c-tton classics",
+    "hypothesis": "CTR changed for campaign women c-tton classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women c-tton classics"
+    },
+    "evidence": {
+      "before": 0.0083,
+      "after": 0,
+      "delta": -0.0083,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women | Studio Sports",
+    "hypothesis": "CTR changed for campaign Women | Studio Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Studio Sports"
+    },
+    "evidence": {
+      "before": 0.0116,
+      "after": 0.0102,
+      "delta": -0.0013999999999999985,
+      "delta_pct": -12.07
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_WOMEN_otton_Classics",
+    "hypothesis": "CTR changed for campaign WOMEN_otton_Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN_otton_Classics"
+    },
+    "evidence": {
+      "before": 0.012,
+      "after": 0,
+      "delta": -0.012,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women | Studio  ports",
+    "hypothesis": "CTR changed for campaign Women | Studio  ports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Studio  ports"
+    },
+    "evidence": {
+      "before": 0.013,
+      "after": 0,
+      "delta": -0.013,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women it & Lift",
+    "hypothesis": "CTR changed for campaign Women it & Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women it & Lift"
+    },
+    "evidence": {
+      "before": 0.0143,
+      "after": 0,
+      "delta": -0.0143,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_W MEN FIT & LIFT",
+    "hypothesis": "CTR changed for campaign W MEN FIT & LIFT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "W MEN FIT & LIFT"
+    },
+    "evidence": {
+      "before": 0.0136,
+      "after": 0,
+      "delta": -0.0136,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN Sinature Soft",
+    "hypothesis": "CTR changed for campaign MEN Sinature Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN Sinature Soft"
+    },
+    "evidence": {
+      "before": 0.0098,
+      "after": 0,
+      "delta": -0.0098,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Seamless Everyday",
+    "hypothesis": "CTR changed for campaign Women Seamless Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Seamless Everyday"
+    },
+    "evidence": {
+      "before": 0.0075,
+      "after": 0.0098,
+      "delta": 0.0023,
+      "delta_pct": 30.67
+    },
+    "impact": "high",
+    "confidence": 0.13
+  },
+  {
+    "id": "H_ctr_women_Summer_Invisible",
+    "hypothesis": "CTR changed for campaign women_Summer_Invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women_Summer_Invisible"
+    },
+    "evidence": {
+      "before": 0.0116,
+      "after": 0.0094,
+      "delta": -0.002199999999999999,
+      "delta_pct": -18.97
+    },
+    "impact": "medium",
+    "confidence": 0.09
+  },
+  {
+    "id": "H_ctr_Men Comfo tMax Launch",
+    "hypothesis": "CTR changed for campaign Men Comfo tMax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Comfo tMax Launch"
+    },
+    "evidence": {
+      "before": 0.0148,
+      "after": 0,
+      "delta": -0.0148,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women-Studio Spots",
+    "hypothesis": "CTR changed for campaign Women-Studio Spots",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women-Studio Spots"
+    },
+    "evidence": {
+      "before": 0.0185,
+      "after": 0,
+      "delta": -0.0185,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women-Studio Sports",
+    "hypothesis": "CTR changed for campaign Women-Studio Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women-Studio Sports"
+    },
+    "evidence": {
+      "before": 0.0115,
+      "after": 0.0099,
+      "delta": -0.001599999999999999,
+      "delta_pct": -13.91
+    },
+    "impact": "medium",
+    "confidence": 0.07
+  },
+  {
+    "id": "H_ctr_Women | Stu io Sports",
+    "hypothesis": "CTR changed for campaign Women | Stu io Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Stu io Sports"
+    },
+    "evidence": {
+      "before": 0.0093,
+      "after": 0,
+      "delta": -0.0093,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Co-ton Classics",
+    "hypothesis": "CTR changed for campaign Women Co-ton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Co-ton Classics"
+    },
+    "evidence": {
+      "before": 0.0058,
+      "after": 0,
+      "delta": -0.0058,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men_Com-ortMax_Launch",
+    "hypothesis": "CTR changed for campaign Men_Com-ortMax_Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men_Com-ortMax_Launch"
+    },
+    "evidence": {
+      "before": 0.0168,
+      "after": 0,
+      "delta": -0.0168,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women cotton clasics",
+    "hypothesis": "CTR changed for campaign women cotton clasics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women cotton clasics"
+    },
+    "evidence": {
+      "before": 0.0104,
+      "after": 0,
+      "delta": -0.0104,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Premium -odal",
+    "hypothesis": "CTR changed for campaign Men Premium -odal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Premium -odal"
+    },
+    "evidence": {
+      "before": 0.0066,
+      "after": 0,
+      "delta": -0.0066,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_wo en fit & lift",
+    "hypothesis": "CTR changed for campaign wo en fit & lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "wo en fit & lift"
+    },
+    "evidence": {
+      "before": 0.0166,
+      "after": 0,
+      "delta": -0.0166,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women_Summer_Invisi-le",
+    "hypothesis": "CTR changed for campaign women_Summer_Invisi-le",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women_Summer_Invisi-le"
+    },
+    "evidence": {
+      "before": 0.0086,
+      "after": 0,
+      "delta": -0.0086,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_W-men  |  Studio  Sports",
+    "hypothesis": "CTR changed for campaign W-men  |  Studio  Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "W-men  |  Studio  Sports"
+    },
+    "evidence": {
+      "before": 0.0181,
+      "after": 0,
+      "delta": -0.0181,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men_Premium_Modal",
+    "hypothesis": "CTR changed for campaign Men_Premium_Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men_Premium_Modal"
+    },
+    "evidence": {
+      "before": 0.01,
+      "after": 0.0113,
+      "delta": 0.001299999999999999,
+      "delta_pct": 13.0
+    },
+    "impact": "medium",
+    "confidence": 0.06
+  },
+  {
+    "id": "H_ctr_Women Summer Invisi-le",
+    "hypothesis": "CTR changed for campaign Women Summer Invisi-le",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Summer Invisi-le"
+    },
+    "evidence": {
+      "before": 0.0132,
+      "after": 0,
+      "delta": -0.0132,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WomenSeamless Everyday",
+    "hypothesis": "CTR changed for campaign WomenSeamless Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WomenSeamless Everyday"
+    },
+    "evidence": {
+      "before": 0.011,
+      "after": 0,
+      "delta": -0.011,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Comfortmax Launch",
+    "hypothesis": "CTR changed for campaign Men Comfortmax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Comfortmax Launch"
+    },
+    "evidence": {
+      "before": 0.0174,
+      "after": 0.0161,
+      "delta": -0.001299999999999999,
+      "delta_pct": -7.47
+    },
+    "impact": "low",
+    "confidence": 0.04
+  },
+  {
+    "id": "H_ctr_Men   Athleisure Cooling",
+    "hypothesis": "CTR changed for campaign Men   Athleisure Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men   Athleisure Cooling"
+    },
+    "evidence": {
+      "before": 0.0215,
+      "after": 0,
+      "delta": -0.0215,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Pre ium Modal",
+    "hypothesis": "CTR changed for campaign Men Pre ium Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Pre ium Modal"
+    },
+    "evidence": {
+      "before": 0.0109,
+      "after": 0,
+      "delta": -0.0109,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN  Cotton  Cla-sics",
+    "hypothesis": "CTR changed for campaign WOMEN  Cotton  Cla-sics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN  Cotton  Cla-sics"
+    },
+    "evidence": {
+      "before": 0.0124,
+      "after": 0,
+      "delta": -0.0124,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women seamless everyday",
+    "hypothesis": "CTR changed for campaign women seamless everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women seamless everyday"
+    },
+    "evidence": {
+      "before": 0.0074,
+      "after": 0.0087,
+      "delta": 0.001299999999999999,
+      "delta_pct": 17.57
+    },
+    "impact": "medium",
+    "confidence": 0.08
+  },
+  {
+    "id": "H_ctr_Women Cotton Classis",
+    "hypothesis": "CTR changed for campaign Women Cotton Classis",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Cotton Classis"
+    },
+    "evidence": {
+      "before": 0.0131,
+      "after": 0,
+      "delta": -0.0131,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN_Signatu e_Soft",
+    "hypothesis": "CTR changed for campaign MEN_Signatu e_Soft",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN_Signatu e_Soft"
+    },
+    "evidence": {
+      "before": 0.0136,
+      "after": 0,
+      "delta": -0.0136,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  Co fortMax  Launch",
+    "hypothesis": "CTR changed for campaign Men  Co fortMax  Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  Co fortMax  Launch"
+    },
+    "evidence": {
+      "before": 0.0109,
+      "after": 0,
+      "delta": -0.0109,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MenComfortmax Launch",
+    "hypothesis": "CTR changed for campaign MenComfortmax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MenComfortmax Launch"
+    },
+    "evidence": {
+      "before": 0.0171,
+      "after": 0,
+      "delta": -0.0171,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  Premium  Modal",
+    "hypothesis": "CTR changed for campaign Men  Premium  Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  Premium  Modal"
+    },
+    "evidence": {
+      "before": 0.0109,
+      "after": 0.0078,
+      "delta": -0.0031000000000000003,
+      "delta_pct": -28.44
+    },
+    "impact": "medium",
+    "confidence": 0.12
+  },
+  {
+    "id": "H_ctr_WOMEN  Seamless- Everyday",
+    "hypothesis": "CTR changed for campaign WOMEN  Seamless- Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN  Seamless- Everyday"
+    },
+    "evidence": {
+      "before": 0.0086,
+      "after": 0,
+      "delta": -0.0086,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  |  Athlei ure  Cooling",
+    "hypothesis": "CTR changed for campaign Men  |  Athlei ure  Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  |  Athlei ure  Cooling"
+    },
+    "evidence": {
+      "before": 0.022,
+      "after": 0,
+      "delta": -0.022,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN BLD COLORS DROP",
+    "hypothesis": "CTR changed for campaign MEN BLD COLORS DROP",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN BLD COLORS DROP"
+    },
+    "evidence": {
+      "before": 0.0101,
+      "after": 0,
+      "delta": -0.0101,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women fit-& lift",
+    "hypothesis": "CTR changed for campaign women fit-& lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women fit-& lift"
+    },
+    "evidence": {
+      "before": 0.0159,
+      "after": 0,
+      "delta": -0.0159,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Bold C-lors Drop",
+    "hypothesis": "CTR changed for campaign Men Bold C-lors Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Bold C-lors Drop"
+    },
+    "evidence": {
+      "before": 0.013,
+      "after": 0,
+      "delta": -0.013,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN BOLD COLORS DROP",
+    "hypothesis": "CTR changed for campaign MEN BOLD COLORS DROP",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN BOLD COLORS DROP"
+    },
+    "evidence": {
+      "before": 0.0084,
+      "after": 0.0104,
+      "delta": 0.002,
+      "delta_pct": 23.81
+    },
+    "impact": "medium",
+    "confidence": 0.11
+  },
+  {
+    "id": "H_ctr_Men_ComfortMax_Launch",
+    "hypothesis": "CTR changed for campaign Men_ComfortMax_Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men_ComfortMax_Launch"
+    },
+    "evidence": {
+      "before": 0.017,
+      "after": 0.0134,
+      "delta": -0.0036000000000000008,
+      "delta_pct": -21.18
+    },
+    "impact": "medium",
+    "confidence": 0.1
+  },
+  {
+    "id": "H_ctr_Women Fit & ift",
+    "hypothesis": "CTR changed for campaign Women Fit & ift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Fit & ift"
+    },
+    "evidence": {
+      "before": 0.0123,
+      "after": 0,
+      "delta": -0.0123,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN COTTON CLASSICS",
+    "hypothesis": "CTR changed for campaign WOMEN COTTON CLASSICS",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN COTTON CLASSICS"
+    },
+    "evidence": {
+      "before": 0.0113,
+      "after": 0.0086,
+      "delta": -0.0026999999999999993,
+      "delta_pct": -23.89
+    },
+    "impact": "medium",
+    "confidence": 0.11
+  },
+  {
+    "id": "H_ctr_WOMEN Seamless Everydy",
+    "hypothesis": "CTR changed for campaign WOMEN Seamless Everydy",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN Seamless Everydy"
+    },
+    "evidence": {
+      "before": 0.0053,
+      "after": 0,
+      "delta": -0.0053,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN SIGNATURE SOT",
+    "hypothesis": "CTR changed for campaign MEN SIGNATURE SOT",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN SIGNATURE SOT"
+    },
+    "evidence": {
+      "before": 0.0118,
+      "after": 0,
+      "delta": -0.0118,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women Semless Everyday",
+    "hypothesis": "CTR changed for campaign Women Semless Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women Semless Everyday"
+    },
+    "evidence": {
+      "before": 0.0113,
+      "after": 0,
+      "delta": -0.0113,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Comfo tmax Launch",
+    "hypothesis": "CTR changed for campaign Men Comfo tmax Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Comfo tmax Launch"
+    },
+    "evidence": {
+      "before": 0.0223,
+      "after": 0,
+      "delta": -0.0223,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women Summer In isible",
+    "hypothesis": "CTR changed for campaign women Summer In isible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women Summer In isible"
+    },
+    "evidence": {
+      "before": 0.0129,
+      "after": 0,
+      "delta": -0.0129,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_WOMEN Coton Classics",
+    "hypothesis": "CTR changed for campaign WOMEN Coton Classics",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WOMEN Coton Classics"
+    },
+    "evidence": {
+      "before": 0.014,
+      "after": 0.0106,
+      "delta": -0.0034000000000000002,
+      "delta_pct": -24.29
+    },
+    "impact": "medium",
+    "confidence": 0.11
+  },
+  {
+    "id": "H_ctr_-omen summer invisible",
+    "hypothesis": "CTR changed for campaign -omen summer invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "-omen summer invisible"
+    },
+    "evidence": {
+      "before": 0.0173,
+      "after": 0,
+      "delta": -0.0173,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men  old  Colors  Drop",
+    "hypothesis": "CTR changed for campaign Men  old  Colors  Drop",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men  old  Colors  Drop"
+    },
+    "evidence": {
+      "before": 0.0101,
+      "after": 0,
+      "delta": -0.0101,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women  |  Studio  Sports",
+    "hypothesis": "CTR changed for campaign Women  |  Studio  Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women  |  Studio  Sports"
+    },
+    "evidence": {
+      "before": 0.0115,
+      "after": 0.0154,
+      "delta": 0.0039000000000000007,
+      "delta_pct": 33.91
+    },
+    "impact": "high",
+    "confidence": 0.14
+  },
+  {
+    "id": "H_ctr_omen | Studio Sports",
+    "hypothesis": "CTR changed for campaign omen | Studio Sports",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "omen | Studio Sports"
+    },
+    "evidence": {
+      "before": 0.0138,
+      "after": 0,
+      "delta": -0.0138,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Premium M-dal",
+    "hypothesis": "CTR changed for campaign Men Premium M-dal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Premium M-dal"
+    },
+    "evidence": {
+      "before": 0.0098,
+      "after": 0,
+      "delta": -0.0098,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men_|_Athleisure_Cooling",
+    "hypothesis": "CTR changed for campaign Men_|_Athleisure_Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men_|_Athleisure_Cooling"
+    },
+    "evidence": {
+      "before": 0.0209,
+      "after": 0.0194,
+      "delta": -0.0014999999999999979,
+      "delta_pct": -7.18
+    },
+    "impact": "low",
+    "confidence": 0.03
+  },
+  {
+    "id": "H_ctr_WMEN Seamless Everyday",
+    "hypothesis": "CTR changed for campaign WMEN Seamless Everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "WMEN Seamless Everyday"
+    },
+    "evidence": {
+      "before": 0.0098,
+      "after": 0,
+      "delta": -0.0098,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women seaml-ss everyday",
+    "hypothesis": "CTR changed for campaign women seaml-ss everyday",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women seaml-ss everyday"
+    },
+    "evidence": {
+      "before": 0.0106,
+      "after": 0,
+      "delta": -0.0106,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_MEN BOLD COL RS DROP",
+    "hypothesis": "CTR changed for campaign MEN BOLD COL RS DROP",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "MEN BOLD COL RS DROP"
+    },
+    "evidence": {
+      "before": 0.0054,
+      "after": 0,
+      "delta": -0.0054,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_women s-mmer invisible",
+    "hypothesis": "CTR changed for campaign women s-mmer invisible",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "women s-mmer invisible"
+    },
+    "evidence": {
+      "before": 0.0085,
+      "after": 0,
+      "delta": -0.0085,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men Comfortma- Launch",
+    "hypothesis": "CTR changed for campaign Men Comfortma- Launch",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men Comfortma- Launch"
+    },
+    "evidence": {
+      "before": 0.0145,
+      "after": 0,
+      "delta": -0.0145,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Me- Premium Modal",
+    "hypothesis": "CTR changed for campaign Me- Premium Modal",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Me- Premium Modal"
+    },
+    "evidence": {
+      "before": 0.0124,
+      "after": 0,
+      "delta": -0.0124,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Women | Studio Spo-ts",
+    "hypothesis": "CTR changed for campaign Women | Studio Spo-ts",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Women | Studio Spo-ts"
+    },
+    "evidence": {
+      "before": 0.0095,
+      "after": 0,
+      "delta": -0.0095,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Wo en  Fit  &  Lift",
+    "hypothesis": "CTR changed for campaign Wo en  Fit  &  Lift",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Wo en  Fit  &  Lift"
+    },
+    "evidence": {
+      "before": 0.0223,
+      "after": 0,
+      "delta": -0.0223,
+      "delta_pct": -100.0
+    },
+    "impact": "high",
+    "confidence": 0.33
+  },
+  {
+    "id": "H_ctr_Men | Athleisure Cooling",
+    "hypothesis": "CTR changed for campaign Men | Athleisure Cooling",
+    "metric": "ctr",
+    "segment": {
+      "campaign": "Men | Athleisure Cooling"
+    },
+    "evidence": {
+      "before": 0.0199,
+      "after": 0.0228,
+      "delta": 0.0029,
+      "delta_pct": 14.57
+    },
+    "impact": "medium",
+    "confidence": 0.07
   }
 ]
